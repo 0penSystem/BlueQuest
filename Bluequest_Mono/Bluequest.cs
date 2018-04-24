@@ -7,12 +7,12 @@ namespace Bluequest_Mono
     /// <summary>
     /// This is the main type for your game.
     /// </summary>
-    public class Game1 : Game
+    public class Bluequest : Game
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
         
-        public Game1()
+        public Bluequest()
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";

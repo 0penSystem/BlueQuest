@@ -13,7 +13,7 @@ namespace Bluequest_Mono
         [STAThread]
         static void Main()
         {
-            using (var game = new Game1())
+            using (var game = new Bluequest())
                 game.Run();
         }
     }
